@@ -14,11 +14,17 @@ This application plots live Periscope broadcasts on a map. It does this by using
 This app relies on a number of external services which require an API key to access. These API keys are *not* checked into this repo; you must get your own keys. The following API keys are required and must be available in the app's global environment (`ENV`):
 
 CONSUMER_KEY (Twitter consumer key)
+
 CONSUMER_SECRET (Twitter consumer secret)
+
 ACCESS_TOKEN (Twitter access token)
+
 ACCESS_TOKEN_SECRET (Twitter access token secret)
+
 GOOGLE_API_KEY (Google API key to use Maps)
+
 PUBNUB_PUBLISH_KEY (Pubnub key to publish message)
+
 PUBNUB_SUBSCRIBE_KEY (Pubnub key to subscribe to message)
 
 #### Setup
